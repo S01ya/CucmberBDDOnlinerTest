@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="23.865">
+    <testcase classname="I want to get ability to navigate to sections" name="AutoBaraholka sections should contains appropriate columns" time="14.017">
+        <system-out><![CDATA[Given the user opens Onliner website........................................passed
+When the user check that "Автобарахолка" section exist......................passed
+And the  user hover to "Автобарахолка" section..............................passed
+Then the dropdown submenu  of "Автобарахолка" is appear contains table "city" "price" "car".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user" name="HousesAndFlats sections should contains appropriate columns" time="9.334">
+        <system-out><![CDATA[Given the user opens Onliner website........................................passed
+When the user check that "Дома и квартиры" section exist....................passed
+And the  user hover to "Дома и квартиры" section............................passed
+Then the dropdown submenu  of "Дома и квартиры" is appear and contains table "cities" "number of rooms" "prise".passed
+]]></system-out>
+    </testcase>
+</testsuite>
