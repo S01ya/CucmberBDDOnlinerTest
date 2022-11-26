@@ -9,16 +9,20 @@ import java.util.Optional;
 public class DriverManager {
     private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
-    private DriverManager() {
+  private DriverManager() {
     }
 
     public static void setupDriver() {
-        WebDriverManager.chromedriver().setup();
-        driverThreadLocal.set(new ChromeDriver());
+        if (driverThreadLocal.get() == null) {
+            WebDriverManager.chromedriver().setup();
+            driverThreadLocal.set(new ChromeDriver());
+        } else {
+            System.out.println("driver has been set" + Thread.currentThread().getId());
+        }
     }
 
     public static WebDriver getDriver() {
-        return driverThreadLocal.get();
+      return driverThreadLocal.get();
     }
 
     public static void quitDriver() {
