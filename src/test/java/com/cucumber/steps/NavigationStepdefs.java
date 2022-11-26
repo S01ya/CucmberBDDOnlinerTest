@@ -1,13 +1,9 @@
 package com.cucumber.steps;
-
 import com.it_academy.cucmber.testNG.pages.HomePage;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.assertj.core.api.SoftAssertions;
-
-
 
 public class NavigationStepdefs {
 
@@ -16,7 +12,6 @@ public class NavigationStepdefs {
     @Given("the user opens Onliner website")
     public void the_user_opens_onliner_website() {
         homePage.openOnlinerWebsite();
-
     }
 
     @When("the user check that {string} section exist")
@@ -43,6 +38,7 @@ public class NavigationStepdefs {
         softy.assertThat(homePage.getTableCarsBrand())
                 .as("the table of %s from submenu %s is empty", tableNameCar, section)
                 .isNotEmpty();
+        softy.assertAll();
     }
 
     @Then("the dropdown submenu  of {string} is appear and contains table {string} {string} {string}")
@@ -60,5 +56,6 @@ public class NavigationStepdefs {
         softy.assertThat(homePage.getTablePriceInFlats())
                 .as("the table of %s from submenu %s is empty", prise, section)
                 .isNotEmpty();
+        softy.assertAll();
     }
 }

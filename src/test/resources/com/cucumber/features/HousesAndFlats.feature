@@ -7,6 +7,7 @@ Feature: As a user
   "prise"
   So that I can
 
+
   @smoke
   Scenario: HousesAndFlats sections should contains appropriate columns
     Given the user opens Onliner website

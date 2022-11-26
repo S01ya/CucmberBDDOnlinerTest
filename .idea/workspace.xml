@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74b7e11-896c-4bf0-9360-6b603443fb59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/cucmber/testNG/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/cucmber/testNG/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/cucmber/testNG/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/hooks/DriverHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/hooks/ScreenshotHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/runner/CucumberTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/steps/NavigationStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/cucumber/features/AutoBaraholka.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/cucumber/features/HousesAndFlats.feature" afterDir="false" />
+    <list default="true" id="e74b7e11-896c-4bf0-9360-6b603443fb59" name="Changes" comment="Init Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/cucmber/testNG/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/cucmber/testNG/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/runner/CucumberTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/runner/CucumberRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/steps/NavigationStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/steps/NavigationStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/com/cucumber/features/HousesAndFlats.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/cucumber/features/HousesAndFlats.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Solya/Desktop/BDDTest",
+    "last_opened_file_path": "C:/Users/Solya/IdeaProjects/OnlinerTests",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -71,7 +60,7 @@
       <recent name="com.cucumber.testing.hooks" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.com.cucumber.runner">
+  <component name="RunManager" selected="TestNG.CucumberRunnerTest">
     <configuration name="Feature: AutoBaraholka" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/com/cucumber/features/AutoBaraholka.feature" />
@@ -79,6 +68,7 @@
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDOnlinerTest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: AutoBaraholka" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -98,6 +88,7 @@
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="BDDOnlinerTest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: HousesAndFlats" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -118,6 +109,7 @@
       <module name="BDDOnlinerTest" />
       <option name="NAME_FILTER" value="^AutoBaraholka sections should contains appropriate columns$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^AutoBaraholka sections should contains appropriate columns$&quot;" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: AutoBaraholka sections should contains appropriate columns" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -130,35 +122,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: HousesAndFlats sections should contains appropriate columns (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/com/cucumber/features/HousesAndFlats.feature" />
-      <option name="GLUE" value="com.cucumber.steps com.cucumber.hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="BDDOnlinerTest" />
-      <option name="NAME_FILTER" value="^HousesAndFlats sections should contains appropriate columns$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^HousesAndFlats sections should contains appropriate columns$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: HousesAndFlats sections should contains appropriate columns" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+    <configuration name="Unnamed" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
       <module name="BDDOnlinerTest" />
       <shortenClasspath name="NONE" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <option name="filePath" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cucumber.runner" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Run test by tag" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="-Dcucumber.options=--tags @smoke" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="CucumberRunnerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BDDOnlinerTest" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -170,12 +169,14 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.cucumber.runner" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.cucumber.runner.CucumberRunnerTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="mvn clean test" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -184,20 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Unnamed" />
       <item itemvalue="Cucumber Java.Feature: AutoBaraholka" />
       <item itemvalue="Cucumber Java.Feature: HousesAndFlats" />
       <item itemvalue="Cucumber Java.Scenario: AutoBaraholka sections should contains appropriate columns (1)" />
-      <item itemvalue="Cucumber Java.Scenario: HousesAndFlats sections should contains appropriate columns (1)" />
-      <item itemvalue="TestNG.com.cucumber.runner" />
+      <item itemvalue="Kotlin script (Beta).Unnamed" />
+      <item itemvalue="Maven.Run test by tag" />
+      <item itemvalue="TestNG.CucumberRunnerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.com.cucumber.runner" />
+        <item itemvalue="TestNG.CucumberRunnerTest" />
         <item itemvalue="Cucumber Java.Feature: AutoBaraholka" />
         <item itemvalue="Cucumber Java.Feature: HousesAndFlats" />
         <item itemvalue="Cucumber Java.Scenario: AutoBaraholka sections should contains appropriate columns (1)" />
-        <item itemvalue="Cucumber Java.Scenario: HousesAndFlats sections should contains appropriate columns (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +210,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668950743775</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init Commit">
+      <created>1669401233628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669401233628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +230,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BDDOnlinerTest$CucumberTestRunner.ic" NAME="CucumberTestRunner Coverage Results" MODIFIED="1668977150784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
